@@ -53,3 +53,5 @@ Swap `data/sales_data_raw.csv` for your own CSV and adjust the column names
 in `analysis.py` to match. The cleaning → feature engineering → EDA →
 visualization pipeline structure will work for most tabular business
 datasets (retail, subscriptions, marketing, etc.).
+![Monthly Revenue Trend](charts/monthly_revenue_trend.png)
+   ![Revenue by Category](charts/revenue_by_category.png)
