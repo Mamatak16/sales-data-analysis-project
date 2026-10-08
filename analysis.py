@@ -14,17 +14,22 @@ Pipeline:
 Run with:  python3 analysis.py
 """
 
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
+
+os.makedirs("data", exist_ok=True)
+os.makedirs("charts", exist_ok=True)
 
 pd.set_option("display.max_columns", None)
 
 # ---------------------------------------------------------------
 # 1. LOAD DATA
 # ---------------------------------------------------------------
-df = pd.read_csv("data/sales_data_raw.csv", parse_dates=["OrderDate"])
-print(f"Raw data loaded: {df.shape[0]} rows, {df.shape[1]} columns")
+raw_path = "data/sales_data_raw.csv" if os.path.exists("data/sales_data_raw.csv") else "sales_data_raw.csv"
+df = pd.read_csv(raw_path, parse_dates=["OrderDate"])
+print(f"Raw data loaded from '{raw_path}': {df.shape[0]} rows, {df.shape[1]} columns")
 
 # ---------------------------------------------------------------
 # 2. DATA CLEANING

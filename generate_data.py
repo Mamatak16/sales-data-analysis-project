@@ -8,8 +8,11 @@ inconsistent text casing, stray whitespace) just like real-world data.
 Run this once to produce data/sales_data_raw.csv
 """
 
+import os
 import numpy as np
 import pandas as pd
+
+os.makedirs("data", exist_ok=True)
 
 np.random.seed(42)
 

@@ -1,0 +1,36 @@
+============================================================
+SALES DATA ANALYSIS REPORT
+============================================================
+
+Total Revenue:      $5,822,407.92
+Total Orders:        4,701
+Average Order Value: $1,238.55
+
+Revenue by Category:
+  Toys            $1,210,840.52
+  Clothing        $1,184,590.20
+  Furniture       $1,156,300.42
+  Groceries       $1,149,100.55
+  Electronics     $1,121,576.24
+
+Revenue by Region:
+  North           $1,528,368.10
+  South           $1,469,167.80
+  West            $1,430,450.31
+  East            $1,394,421.71
+
+Top 5 Products by Revenue:
+  Bed Frame       $263,006.33
+  Rc Car          $261,936.95
+  Sneakers        $260,053.57
+  Headphones      $256,462.58
+  Puzzle          $255,319.84
+
+Orders by Payment Method:
+  Debit Card      1,190 orders
+  Online Wallet   1,184 orders
+  Credit Card     1,179 orders
+  Cash            1,148 orders
+
+Best month:  2024-09 ($292,781.26)
+Worst month: 2025-03 ($209,176.55)
